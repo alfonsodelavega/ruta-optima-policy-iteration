@@ -58,7 +58,7 @@ def main():
     politica = {s: 'N' if s != (0, 3) and s != (1, 3) else 'EXIT' for s in lab.posibles_estados()}
    
     N = 4
-    # Bucle para evaluar iterar la politica (evaluar y extraer) N veces.  E.g. a
+    # Bucle para iterar la politica (evaluar y extraer) N veces.  E.g. a
     # partir de la segunda iteracion el resultado tiene que ser: {(0, 1): 'E',
     # (1, 2): 'N', (0, 0): 'E', (2, 1): 'W', (2, 0): 'N', (1, 3): 'EXIT', (2,
     # 3): 'W', (2, 2): 'N', (1, 0): 'N', (0, 3): 'EXIT', (0, 2): 'E'}
