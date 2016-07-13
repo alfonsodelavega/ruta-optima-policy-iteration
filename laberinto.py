@@ -5,10 +5,7 @@
 def es_terminal(estado):
     """ Devuelve True si es un estado terminal y False en caso contrario.
     E.g. es_terminal((0,3)) devolvera True; es_terminal((0, 0)) devolvera False """
-    if estado == (0, 3) or estado == (1, 3):
-        return True
-    else:
-        return False
+    return estado == (0, 3) or estado == (1, 3)
 
 def posibles_estados():
     """ Devuelve una lista con todos los posibles estados.
